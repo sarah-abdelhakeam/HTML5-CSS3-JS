@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab 2 q 1 </title>
+    <link rel="stylesheet" href="q1.css">
+
+    
+
+</head>
+<body>
+    <nav> 
+        <button id="free" onclick="freeDrawing()"><img src="./media/free.png"> </button>
+        <button id="line" onclick="drawLine()"><img src="./media/line.png"> </button>
+        <button id="rec" onclick="drawRectangle()"><img src="./media/rec.png"> </button>
+        <button id="circle" onclick="drawCircle()"><img src="./media/circle.png"></button>
+        <button id="raser" onclick="clearAll()"><img src="./media/raser.png"></button>
+    </nav>
+
+    <aside>
+        <label> fill style</label><br>
+        <button id="fill" onclick="checkfill()" ><img src="./media/change.png"> </button><br>
+        <label> strok style </label><br>
+        <button id="strok"  onclick="checkstrok()"><img src="./media/change.png"> </button><br>
+    </aside>
+    <section>
+    <canvas id="my-canvas" width="900px" height="500px" style=" border:2px solid #000000; ">
+        
+   </canvas>
+</section>
+
+<script src="q1.js"></script>
+</body>
+</html>

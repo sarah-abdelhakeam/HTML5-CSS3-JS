@@ -1,0 +1,45 @@
+
+aside{
+    background-color: rgb(206, 245, 232);
+    color: tomato;
+    text-align: center;
+    font-weight: bolder;
+    height: 100%px;
+    margin: 50px;
+    padding: 35px;
+    clear: both;
+    display: block;
+    float: left;
+}
+
+aside img{
+padding-top: 15px;
+margin: 5px;
+
+}
+
+#my-canvas{
+    /* width:"200" ;
+    height:"100"; */
+    /* border:2px solid #000000;  */
+    background-color: rgb(206, 245, 232);
+}
+
+nav{
+    background-color: rgb(206, 245, 232);
+    margin: 10px;
+    text-align: center;
+    padding: 15px;
+
+}
+nav button{
+    height: 70px;
+    width: 80px;
+    padding: 10px;
+    margin: 0px;
+
+}
+nav img{
+height: 45px; 
+width: 50px;
+}

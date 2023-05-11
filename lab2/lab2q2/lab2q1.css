@@ -1,0 +1,28 @@
+
+body{
+    text-align: center;
+    background-color: rgb(254, 231, 223);
+
+}
+
+#my-canvas{
+    /* width:"200" ;
+    height:"100"; */
+   
+    background-color: rgb(205, 250, 235);
+}
+
+nav{
+    /* background-color: aquamarine; */
+    margin: 10px;
+    text-align: center;
+    padding: 15px;
+
+}
+nav button{
+    height: 100px;
+    width: 120px;
+    padding: 5px;
+    margin: 5px;
+
+}
